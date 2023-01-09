@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/c/cpp-series/","tags":"gardenEntry"}
+{"dg-publish":true,"dg-home":true,"permalink":"/c/cpp-series/","tags":"gardenEntry","dgPassFrontmatter":true}
 ---
 
 
