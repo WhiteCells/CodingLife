@@ -1,6 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/my-node1/","tags":"gardenEntry"}
+{"dg-publish":true,"dg-home":true,"permalink":"/my-node1/","tags":"gardenEntry","dgPassFrontmatter":true}
 ---
+
+
 
 这是一段测试，this is a test
 
+这是一段测试 希望不要不显示
