@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/c/cpp-series2/"}
+{"dg-publish":true,"dg-home":false,"permalink":"/c/cpp-series2/","dgPassFrontmatter":true}
 ---
 
 
