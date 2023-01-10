@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/algorithm/sort/select-sort/","tags":"gardenEntry"}
+{"dg-publish":true,"permalink":"/algorithm/sort/select-sort/"}
 ---
 
 
