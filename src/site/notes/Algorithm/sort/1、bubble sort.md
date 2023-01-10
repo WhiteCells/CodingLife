@@ -11,3 +11,6 @@
 ==空间复杂度==：O（1）
 ==是否稳定==：稳定
 
+
+[[Algorithm/look up/2、Dichotomy\|2、Dichotomy]]
+
