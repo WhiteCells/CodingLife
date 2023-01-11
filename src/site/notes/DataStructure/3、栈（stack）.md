@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/data-structure/3-stack/"}
+{"dg-publish":true,"permalink":"/DataStructure/3、栈（stack）/"}
 ---
 
 [[CodeGarden\|Go Home]]
