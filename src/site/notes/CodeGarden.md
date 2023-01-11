@@ -11,11 +11,9 @@
 - [[STL/Standard Template Library\|STL]]（To be continued
 - [[Markdown/markdown语法\|Markdown]]
 - [[To be continued\|To be continued]]
-<br>
 
 ## ***Link***
 * [GitHub](https://github.com/WhiteCells "WhiteCells")
 * [CSDN](https://blog.csdn.net/xuan3215 "無名貓桑的博客")
-<br>
 ***<p align="right"><small>—— Xuan</small></p>***
 
