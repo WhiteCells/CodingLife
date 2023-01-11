@@ -2,7 +2,8 @@
 {"dg-publish":true,"permalink":"/code-garden/","tags":"gardenEntry"}
 ---
 
-这里是*主页*
+***<center>主页</center>***
+
 #### 这里一个普普通通的网站
 这里的内容包括：
 
