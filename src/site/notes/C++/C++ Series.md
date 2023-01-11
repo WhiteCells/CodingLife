@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/c/c-series/"}
+{"dg-publish":true,"permalink":"/C++/C++ Series/"}
 ---
 
 
