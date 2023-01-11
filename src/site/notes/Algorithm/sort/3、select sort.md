@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/algorithm/sort/3-select-sort/"}
+{"dg-publish":true,"permalink":"/Algorithm/sort/3、select sort/"}
 ---
 
 
