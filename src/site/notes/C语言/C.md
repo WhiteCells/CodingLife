@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/c/c/"}
+{"dg-publish":true,"permalink":"/C语言/C/"}
 ---
 
 [[CodeGarden\|Go Home]]
