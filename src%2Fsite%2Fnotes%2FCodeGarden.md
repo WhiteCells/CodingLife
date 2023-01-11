@@ -17,8 +17,8 @@
 <br>
 ## ***Link***
 * [GitHub](https://github.com/WhiteCells "WhiteCells")
-* C
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ——   **$\color{#0AA}{Xuan}$**
+* [CSDN](https://blog.csdn.net/xuan3215 "無名貓桑的博客")
+<br>
 
+***<p align="right"><small>—— Xuan</small></p>***
 
-[WhiteCells (White) (github.com)](https://github.com/WhiteCells)
