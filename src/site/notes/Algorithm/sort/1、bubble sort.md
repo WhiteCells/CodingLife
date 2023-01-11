@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/algorithm/sort/1-bubble-sort/"}
+{"dg-publish":true,"permalink":"/Algorithm/sort/1、bubble sort/"}
 ---
 
 
