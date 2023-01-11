@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/data-structure/data-structure-analysis/"}
+{"dg-publish":true,"permalink":"/DataStructure/DataStructure Analysis/"}
 ---
 
 [[CodeGarden\|Go Home]]
