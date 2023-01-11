@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/data-structure/2-linked-list/"}
+{"dg-publish":true,"permalink":"/DataStructure/2、链表（LinkedList)/"}
 ---
 
 [[CodeGarden\|Go Home]]
