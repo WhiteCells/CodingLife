@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/stl/1-vector/"}
+{"dg-publish":true,"permalink":"/STL/1、vector/"}
 ---
 
 [[CodeGarden\|Go Home]]
 [[STL/Standard Template Library\|Back STL]]
-
+## vector 简介
 vector 是C++标准模板库中的==类==
 这个类提供了很多的端口
 使用之前需要添加**头文件** `#include <vector>`
