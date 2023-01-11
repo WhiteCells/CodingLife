@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/algorithm/algorithm-start/"}
+{"dg-publish":true,"permalink":"/Algorithm/Algorithm Start/"}
 ---
 
 [[CodeGarden\|Go Home]]
