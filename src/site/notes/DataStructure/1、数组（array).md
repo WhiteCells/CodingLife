@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/data-structure/1-array/"}
+{"dg-publish":true,"permalink":"/DataStructure/1、数组（array)/"}
 ---
 
 [[CodeGarden\|Go Home]]
