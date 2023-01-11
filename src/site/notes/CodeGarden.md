@@ -3,8 +3,6 @@
 ---
 
 ## ***Home***
-<br>
-
 *what's here?*
 
 - [[C语言/C\|C]]（To be continued
