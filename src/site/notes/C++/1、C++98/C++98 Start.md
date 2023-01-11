@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/c/1-c-98/c-98-start/"}
+{"dg-publish":true,"permalink":"/C++/1、C++98/C++98 Start/"}
 ---
 
 [[CodeGarden\|Go Home]]
