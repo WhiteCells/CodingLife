@@ -2,17 +2,16 @@
 {"dg-publish":true,"permalink":"/code-garden/","tags":"gardenEntry"}
 ---
 
-***<center>主页</center>***
+## ***Home***
+<br>
 
-这里是一个普普通通的网站
+*what's here?*
 
-这里的内容包括：
-
-- [[C语言/C\|C]]（待续
-- [[C++/C++ Series\|C++ Series]]（待续
-- [[DataStructure/DataStructure Analysis\|Datastructure]]（待续
-- [[Algorithm/Algorithm Start\|Algorithm]]（待续
-- [[STL/Standard Template Library\|STL]]（待续
+- [[C语言/C\|C]]（To be continued
+- [[C++/C++ Series\|C++ Series]]（To be continued
+- [[DataStructure/DataStructure Analysis\|Datastructure]]（To be continued
+- [[Algorithm/Algorithm Start\|Algorithm]]（To be continued
+- [[STL/Standard Template Library\|STL]]（To be continued
 - [[Markdown/markdown语法\|Markdown]]
 - [[待续\|待续]]
 <br>
