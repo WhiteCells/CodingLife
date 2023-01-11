@@ -13,7 +13,7 @@
 - [[Algorithm/Algorithm Start\|Algorithm]]（To be continued
 - [[STL/Standard Template Library\|STL]]（To be continued
 - [[Markdown/markdown语法\|Markdown]]
-- [[待续\|待续]]
+- [[To be continued\|To be continued]]
 <br>
 ## ***Link***
 * [GitHub](https://github.com/WhiteCells "WhiteCells")
