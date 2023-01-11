@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/code-garden/","tags":"gardenEntry"}
+{"dg-publish":true,"permalink":"/CodeGarden/","tags":"gardenEntry"}
 ---
 
 ## ***Home***
@@ -12,7 +12,7 @@
 - [[Markdown/markdown语法\|Markdown]]
 - [[To be continued\|To be continued]]
 
-## ***Link***
+###### ***Link***
 * [GitHub](https://github.com/WhiteCells "WhiteCells")
 * [CSDN](https://blog.csdn.net/xuan3215 "無名貓桑的博客")
 ***<p align="right"><small>—— Xuan</small></p>***
