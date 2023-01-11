@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/c/3-c-11/c-11-start/"}
+{"dg-publish":true,"permalink":"/C++/3、C++11/C++11 Start/"}
 ---
 
 [[CodeGarden\|Go Home]]
