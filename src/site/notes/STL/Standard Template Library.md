@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stl/standard-template-library/"}
+{"dg-publish":true,"permalink":"/STL/Standard Template Library/"}
 ---
 
 [[CodeGarden\|Go Home]]
