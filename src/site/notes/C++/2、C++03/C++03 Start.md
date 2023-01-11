@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/c/2-c-03/c-03-start/"}
+{"dg-publish":true,"permalink":"/C++/2、C++03/C++03 Start/"}
 ---
 
 [[CodeGarden\|Go Home]]
