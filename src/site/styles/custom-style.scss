@@ -11,9 +11,11 @@ body {
     //   color: black;
     //  }
 }
-body a {
+
+.external-link {
     text-decoration: none;
 }
-.external-link {
+
+.markdown-rendered .internal-link {
     text-decoration: none;
 }
