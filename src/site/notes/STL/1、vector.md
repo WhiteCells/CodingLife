@@ -4,6 +4,7 @@
 
 [[CodeGarden\|Go Home]]
 [[STL/Standard Template Library\|Back STL]]
+<a href="https://codinggarden.netlify.app/stl/2%E3%80%81string/" traget="_self">Next</a>
 ## vector 简介
 vector 是C++标准模板库中的==模板类==
 **头文件** `#include <vector>`
@@ -94,9 +95,8 @@ back(); // 返回最后一个元素
 swap(vec); // 将 vec 和自身交换
 ~~~
 ⚠容量和长度一起交换
-#### 内存收缩baidu
-[2、string (codinggarden.netlify.app)](https://codinggarden.netlify.app/stl/2%E3%80%81string/)
-<a href="https://codinggarden.netlify.app/stl/2%E3%80%81string/" target="_self">下一章</a>
+#### 内存收缩
+
 
 ## vector 预留空间
 ~~~C++
