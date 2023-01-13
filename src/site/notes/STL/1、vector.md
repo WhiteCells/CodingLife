@@ -4,7 +4,6 @@
 
 [[CodeGarden\|Go Home]]
 [[STL/Standard Template Library\|Back STL]]
-<a href="https://codinggarden.netlify.app/stl/2%E3%80%81string/" traget="_self">Next</a>
 ## vector 简介
 vector 是C++标准模板库中的==模板类==
 **头文件** `#include <vector>`
@@ -39,7 +38,7 @@ assign(v.begin(), v.end());
 // 类方法，将 n 个 elem 拷贝赋值到容器
 assign(n, elem);
 ~~~
-⚠️注意类方法需要实例化对象后才可以使用，重载=赋值是可以再创建对象的时候使用
+⚠️注意类方法需要实例化对象后才可以使用，重载=赋值是可以在创建对象的时候使用
 ## vector 容量和大小
 ~~~C++
 empty(); // 判断容器是否为空，为空返回真
@@ -94,14 +93,120 @@ back(); // 返回最后一个元素
 ~~~C++
 swap(vec); // 将 vec 和自身交换
 ~~~
-⚠容量和长度一起交换
 #### 内存收缩
+使用 swap 可以做到收缩内存的效果
+例如，在创建一个 vector 容器时，*多次*传入数据，扩容次数增加，然后再将容器大小减小，但是容器的容量不会变，这个时候就可以使用容器互换来达到内存收缩效果
+下面是代码
+~~~C++
+#include<iostream>
+using namespace std;
+#include<vector>
 
+void PrintVector(vector<int>& v) {
+    for (vector<int>::iterator it = v.begin(); it != v.end(); ++it) {
+        cout << *it << " ";
+    }
+    cout << endl;
+} 
 
+void test0() {
+    vector<int>v;
+    for (int i = 0; i < 100; i++) {
+        v.push_back(i);
+    }
+    cout << "v 尾插入 100 个数据后：" << endl;
+    cout << "容量：" << v.capacity() << endl; // 141
+    cout << "长度：" << v.size() << endl; // 100
+
+    // 重新指定大小
+    v.resize(5);
+    cout << "重新指定大小后：" << endl;
+    cout << "容量：" << v.capacity() << endl; // 141
+    cout << "长度：" << v.size() << endl; // 5
+    
+    // 巧用 swap 收缩内存
+    vector<int>(v).swap(v); // 匿名对象，按照 v 目前所用的元素个数初始化匿名对象
+    cout << "swap 收缩后：" << endl;
+    cout << "容量：" << v.capacity() << endl; // 5
+    cout << "长度：" << v.size() << endl; // 5
+}
+
+int main() {
+    test0();
+    system("pause");
+    return 0;
+}
+~~~
+运行结果
+~~~text
+v 尾插入 100 个数据后：
+容量：128
+长度：100
+重新指定大小后：
+容量：128
+长度：5
+swap 收缩后：
+容量：5
+长度：5
+请按任意键继续. . .
+~~~
 ## vector 预留空间
 ~~~C++
 // 容器预留 len 个元素长度，预留位置不初始化，也不可访问
 reserve(int len);
 ~~~
+主要是减小动态扩展的次数，开辟的次数越多消耗的时间也就越长
+下面是代码
+~~~C++
+#include <iostream>
+#include <vector>
+using namespace std;
 
-# 这是一个测试
+void test1() {
+    vector<int> iv;
+    int num = 0;
+    int* p = nullptr; // 记录位置的指针
+    for (int i = 0; i < 100000; i++) {
+        iv.push_back(i);
+        // 开头的地址不等于原先的地址
+        if (&iv.front() != p) {
+            p = &iv.front();
+            ++num;
+        }
+    }
+    cout << "开辟内存的次数: " << num << endl;
+}
+
+void test2() {
+    vector<int> iv;
+    // 对 iv 预留空间
+    iv.reserve(100000);
+    int num = 0;
+    int* p = nullptr;
+    for (int i = 0; i < 100000; i++) {
+        iv.push_back(i);
+        // 记录次数
+        if (&iv.front() != p) {
+            p = &iv.front();
+            ++num;
+        }
+    }
+    cout << "预留空间后次数: " << num << endl;
+}
+
+int main() {
+    test1();
+    test2();
+    system("pause");
+    return 0;
+}
+~~~
+
+运行结果
+~~~text
+开辟内存的次数: 18
+预留空间后次数: 1
+请按任意键继续. . .
+~~~
+[[STL/Standard Template Library\|Back STL]]
+[[CodeGarden\|Go Home]]
