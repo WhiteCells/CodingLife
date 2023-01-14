@@ -12,8 +12,7 @@ string 是 C++ 风格字符串，是标准模板库中的==类==
 
 **头文件** `#include <string>`
 ## string 构造函数
-
-
+gouzaohanshu
 
 
 
