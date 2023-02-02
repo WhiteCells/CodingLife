@@ -55,6 +55,7 @@ resize(int num, elem);
 // 相较于上面的resize不同于
 // 容器边长，会以元素 elem 填充新位置
 ~~~
+
 ## vector 插入和删除
 ~~~C++
 push_back(elem); // 尾插
@@ -77,22 +78,11 @@ erase(const_iterator start, const_iterator end);
 clear();
 ~~~
 
-## vector 数据存取
-~~~C++
-at(int index); // 返回索引 index 的元素
-
-// 重载 []
-operator[]; // 类似数组索引方法
-
-front(); // 返回第一个元素
-
-back(); // 返回最后一个元素
-~~~
-
 ## vector 互换容器
 ~~~C++
 swap(vec); // 将 vec 和自身交换
 ~~~
+
 #### 内存收缩
 使用 swap 可以做到收缩内存的效果
 例如，在创建一个 vector 容器时，***多次***传入数据，扩容次数增加，然后再将容器大小减小，但是容器的容量不会变，这个时候就可以使用容器互换来达到内存收缩效果
@@ -150,6 +140,19 @@ swap 收缩后：
 长度：5
 请按任意键继续. . .
 ~~~
+
+## vector 数据存取
+~~~C++
+at(int index); // 返回索引 index 的元素
+
+// 重载 []
+operator[]; // 类似数组索引方法
+
+front(); // 返回第一个元素
+
+back(); // 返回最后一个元素
+~~~
+
 ## vector 预留空间
 ~~~C++
 // 容器预留 len 个元素长度，预留位置不初始化，也不可访问
