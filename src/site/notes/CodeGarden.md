@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CodeGarden/","tags":"gardenEntry"}
+{"dg-publish":true,"permalink":"/CodeGarden/","tags":["gardenEntry"]}
 ---
 
 ## ***Home***
