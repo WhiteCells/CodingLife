@@ -4,11 +4,11 @@
 
 ## ***Home***
 *what's here?*
-- [[C语言/C\|C]]（To be continued
-- [[C++/C++ Series\|C++ Series]]（To be continued
-- [[DataStructure/DataStructure Analysis\|Datastructure]]（To be continued
-- [[Algorithm/Algorithm Start\|Algorithm]]（To be continued
-- [[STL/Standard Template Library\|STL]]（To be continued
+- [[C\|C]]（To be continued
+- [[C++ Series\|C++ Series]]（To be continued
+- [[DataStructure Analysis\|Datastructure]]（To be continued
+- [[Algorithm Start\|Algorithm]]（To be continued
+- [[Standard Template Library\|STL]]（To be continued
 - [[Markdown/markdown语法\|Markdown]]
 - [[To be continued\|To be continued]]
 这里将停止更新
